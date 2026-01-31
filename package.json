@@ -1,0 +1,42 @@
+{
+  "name": "project-02-e-commerce-backend-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [ "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "backend",
+    "rest-api",
+    "ecommerce",
+    "mvc-architecture",
+    "service-repository-pattern",
+    "session-authentication",
+    "inventory-management",
+    "order-processing",
+    "scalable-backend",
+    "production-ready-api" ],
+  "author": "Dev Drizzle IO",
+  "license": "MIT",
+  "description": "Production-oriented e-commerce backend API using Node.js, Express, MongoDB, and session-based authentication",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-mongo": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
